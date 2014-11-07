@@ -99,15 +99,15 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
   margin: 1.5em 10px;
   padding: 0.5em 10px;
+}
 
-  footer {
-    background: none;
-    color: rgb(191, 98, 167);
-  }
+blockquote  footer {
+  background: none;
+  color: rgb(191, 98, 167);
+}
 
-  p {
-    display: inline;
-  }
+blockquote p {
+  display: inline;
 }
 
 blockquote:before {
@@ -123,16 +123,19 @@ footer {
   background: none;
 }
 
-img:extend(.img-responsive):extend(.img-rounded) {
+img {
+  margin: auto;
+  border-radius: 10px;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.view-api {
-  .col-sm-6 {
-    padding-left: 0px;
-  }
-  
-  iframe {
-    width: 600px;
-    height: 400px;
-  }
+.view-api .col-sm-6 {
+  padding-left: 0px;
+}
+
+.view-api iframe {
+  width: 600px;
+  height: 400px;
 }

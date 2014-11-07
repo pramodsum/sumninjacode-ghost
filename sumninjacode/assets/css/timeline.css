@@ -1,37 +1,39 @@
-#resume {
-  a:focus, 
-  a:hover,  {
+#resume a:focus, 
+#resume a:hover,  {
+  color: rgb(191, 98, 167);
+  text-shadow: 2px 2px rgb(94, 255, 212);
+}
+#resume ul li:focus, 
+#resume ul li:hover {
+  a {
     color: rgb(191, 98, 167);
-    text-shadow: 2px 2px aqua;
+    text-shadow: 2px 2px rgb(94, 255, 212);
   }
+}
 
-  h2 {
-    color: rgb(191, 98, 167);
-    
-    a:focus, 
-    a:hover,  {
-      color: aqua;
-      text-shadow: 2px 2px rgb(191, 98, 167);
-    }
-  }
-  ul li:focus, 
-  ul li:hover {
-    a {
-      color: rgb(191, 98, 167);
-      text-shadow: 2px 2px aqua;
-    }
-  }
+#resume i.ion-pound {
+  color: rgb(191, 98, 167);
+  text-shadow: 2px 2px rgb(94, 255, 212);
+}
 
-  i.ion-pound {
-    color: rgb(191, 98, 167);
-    text-shadow: 2px 2px aqua;
-  }
+#resume i.ion-pound:hover,
+#resume i.ion-pound:focus,
+#resume a:hover i.ion-pound,
+#resume a:focus i.ion-pound, {
+  color: rgb(94, 255, 212);
+  text-shadow: 2px 2px rgb(191, 98, 167);
+}
 
-  i.ion-pound:hover,
-  i.ion-pound:focus,
-  a:hover i.ion-pound,
-  a:focus i.ion-pound, {
-    color: aqua;
-    text-shadow: 2px 2px rgb(191, 98, 167);
-  }
+#resume h2 {
+  color: rgb(191, 98, 167);
+}
+
+#resume h2 a:focus, 
+#resume h2 a:hover {
+  color: rgb(94, 255, 212);
+  text-shadow: 2px 2px rgb(191, 98, 167);
+}
+
+div.small {
+  color: white;
 }

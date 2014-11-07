@@ -4,7 +4,7 @@
   height: auto;
   padding: 50px 0;
   text-align: center;
-  background: -webkit-gradient(linear, center center, center bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 1))), url(../img/bg.jpg) no-repeat bottom center scroll;
+  background: -webkit-gradient(linear, center center, center bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 1))), url(https://s3-us-west-2.amazonaws.com/sumninjacode/img/bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -16,70 +16,75 @@
   vertical-align: middle;
 }
 
-.mini-intro {
-  .brand-heading {
-    margin: 0;
-    color: rgb(94, 255, 212);
-    text-shadow: 2px 2px rgb(191, 98, 167);
-  }
+.mini-intro .brand-heading {
+  margin: 0;
+  color: rgb(94, 255, 212);
+  text-shadow: 2px 2px rgb(191, 98, 167);
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
-    color: rgb(94, 255, 212);
-    text-shadow: 2px 2px rgb(191, 98, 167);
+  font-size: 40px;
+  color: rgb(94, 255, 212);
+  text-shadow: 2px 2px rgb(191, 98, 167);
+}
+
+.intro .intro-body .brand-heading a:hover,
+.intro .intro-body .brand-heading a:focus {
+  color: black;
+  text-shadow: 2px 2px rgb(94, 255, 212);
+  text-decoration: none;
 }
 
 ::-moz-selection
 {
-    color: rgb(253, 252, 248);
-    text-shadow: 2px 2px rgb(191, 98, 167);
+  color: rgb(253, 252, 248);
+  text-shadow: 2px 2px rgb(191, 98, 167);
 }
 ::selection {
-    color: rgb(253, 252, 248);
-    text-shadow: 2px 2px rgb(191, 98, 167);
+  color: rgb(253, 252, 248);
+  text-shadow: 2px 2px rgb(191, 98, 167);
 }
 
 @media(min-width:767px) {
 
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
-    }
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
 }
 
 .btn-outline {
-    border: solid 2px white;
-    font-size: 20px;
-    color: white;
-    background: 0 0;
-    transition: all .3s ease-in-out;
+  border: solid 2px white;
+  font-size: 20px;
+  color: white;
+  background: 0 0;
+  transition: all .3s ease-in-out;
 }
 .btn-social {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 2px solid white;
-    border-radius: 100%;
-    text-align: center;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
 }
 .btn-social :first-child {
-    left: 7px;
-    top: 6px;
-    bottom: 0;
-    line-height: 34px;
-    font-size: 34px;
-    text-align: center;
-    border-right: 0px !important;
+  left: 7px;
+  top: 6px;
+  bottom: 0;
+  line-height: 34px;
+  font-size: 34px;
+  text-align: center;
+  border-right: 0px !important;
 }
 .btn-circle {
-    padding: 7px 16px;
-    border: 2px solid white;
-    border-radius: 34px;
-    color: white;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  padding: 7px 16px;
+  border: 2px solid white;
+  border-radius: 34px;
+  color: white;
+  background: 0 0;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 
 .scroll {
@@ -94,10 +99,10 @@
 }
 .btn-circle:hover,
 .btn-circle:focus {
-    outline: 0;
-    color: rgb(94, 255, 212);
-    border-color: rgb(191, 98, 167);
-    background: rgba(191, 98, 167, 0.1);
+  outline: 0;
+  color: rgb(94, 255, 212);
+  border-color: rgb(191, 98, 167);
+  background: rgba(191, 98, 167, 0.1);
 }
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
@@ -143,7 +148,6 @@
     transform: scale(1);
   }
 }
-
 
 img.profile {
   margin: 0 auto;
